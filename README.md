@@ -1,0 +1,1 @@
+A sample website for an island resort.
