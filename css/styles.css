@@ -1,6 +1,21 @@
-h1 {
+a:link.logo {
   color: darkseagreen;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+a:visited.logo {
+  color: darkseagreen;
+  text-decoration: none;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
 }
 
