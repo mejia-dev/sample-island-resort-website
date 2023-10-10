@@ -1,10 +1,8 @@
 h1 {
-  color:darkseagreen;
+  color: darkseagreen;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
 }
-
-/* This is a CSS comment for testing */
 
 h2 {
   font-style: italic;
@@ -22,9 +20,9 @@ p {
 }
 
 ul {
-  font-size:' 20px%';
+  font-size: ' 20px%';
   text-align: justify;
-  line-height:' 30px%';
+  line-height: ' 30px%';
   font-family: 'Courier New', Courier, monospace;
 }
 
