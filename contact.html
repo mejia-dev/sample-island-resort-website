@@ -7,25 +7,56 @@
 </head>
 
 <body>
-  <h1><a href="index.html">Island Resort</a></h1>
+  <h1><a href="index.html" class="logo">🌴 Island Resort 🌴</a></h1>
   <p><a href="activities.html">Activities</a> | <a href="accommodations.html">Accommodations</a> | <a href="contact.html">Contact Us!</a></p>
   <br>
 
-  <div>
-    <h2>Washington</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis incidunt aliquid, modi ut provident sed molestias eos consectetur facere, quas eius? Praesentium unde nulla beatae reprehenderit nostrum? Libero, fugit earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque et explicabo provident rem illo, obcaecati at voluptatibus nihil iste, sed mollitia minus esse possimus exercitationem fugit? Reiciendis, natus asperiores? </p>
-    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res40/480000/480163-Seattle.jpg" alt="Photo of Seattle skyline">
-    <p>Image Source: <a href="https://www.expedia.com/pictures/usa/washington-state.d249">Expedia</a></p>
+  <div class="contactform">
+    <h2>Bookings</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore laborum eum error maiores voluptatem cumque blanditiis facilis incidunt excepturi, enim quaerat non eaque nesciunt, neque earum, impedit odit molestias inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quos ut hic sint atque nesciunt ea adipisci recusandae, voluptates quia incidunt.</p>
+    <form action="thankyou.html">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name...">
+      <br>
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+      <br>
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Your email address...">
+      <br>
+
+      <br>
+
+      <label for="guests">Number of Guests</label>
+      <select id="guests" name="guests">
+        <option value="1-5">1 to 5</option>
+        <option value="6-10">6 to 10</option>
+        <option value="11-15">11 to 15</option>
+        <option value="16-20">16 to 20</option>
+      </select>
+      <br>
+      <p>(For over 20 guests, please call instead)</p>
+
+      <label for="subject">Please list the number of rooms needed</label>
+      <br>
+      <textarea id="subject" name="subject" placeholder="Please note how many rooms you will need" style="width:400px"></textarea>
+      <br>
+
+      <input type="submit" value="Submit">
+
+    </form>
   </div>
 
   <br>
   <br>
 
-  <div>
-    <h2>Australia</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis incidunt aliquid, modi ut provident sed molestias eos consectetur facere, quas eius? Praesentium unde nulla beatae reprehenderit nostrum? Libero, fugit earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque et explicabo provident rem illo, obcaecati at voluptatibus nihil iste, sed mollitia minus esse possimus exercitationem fugit? Reiciendis, natus asperiores? </p>
-    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/184000/184514-Brisbane.jpg" alt="Photo of Brisbane City">
-    <p>Image Source: <a href="https://www.expedia.com/Brisbane.dx179993">Expedia</a></p>
+  <div class="contactInfo">
+    <h2>Contact Information</h2>
+    <p>Tel: 123-456-7890</p>
+    <p>Email: resort@island.com</p>
   </div>
 
 </body>
